@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indie Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="build/css/app.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Indie Festival</h1>
+
+            <nav class="nav-principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Boletos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!--VIDEO-->
+    
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Indie Festival</h2>
+                <p>Proximamente en Quito-Ecuador</p>
+            </div>
+        </div>
+
+        <video autoplay muted loop>
+            <!--CARGA EL VIDEO CON LA EXTENSIÓN QUE SPORTA EL NAVEGADOR-->
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+            
+        </video>
+    </div>
+    
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+
+           <picture>
+            
+            <!--PODEMOS PONER LAS IMAGENES CON DIFERENTES EXTENCIONES, CARGA EL FORMATO SOPORTADO EN IMG-->
+                <source srcset="build/img/imagen_vocalista.avif" type="image/avif">
+                <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+                <img loading="lazy" src="build/img/imagen_vocalista.jpg" alt="imagen vocalista festival">
+           
+            </picture>
+        </div>
+        <div class="contenido-festival">
+            <h2>Indie Festival</h2>
+            <p  class="fecha">Proximamente en Quito</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Facilis magnam autem alias voluptatem non  
+            </p>
+        </div>
+    </section>
+    
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+        <p class="dia">Viernes 21</p>
+
+        <div class="escenarios-contenedores contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">
+                    Escenario Rock Alternativo
+                </p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Verde 70</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Lolabúm</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Tripulación de osos</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Alkaloides</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Social Vodka</span>
+                    </li>
+                    <li>
+                        17:00 | <span>La máquina camaleón</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="escenario alternativo bg-verde">
+                <p class="nombre-escenario">
+                    Escenario Alternativo
+                </p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Da pawn</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Mauro Samaniego</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Mama vudu</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Papa Chango</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Swing Original Monks</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Guardarraya</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <p class="dia">Sábado 22</p>
+
+        <div class="escenarios-contenedores contenedor">
+            <div class="escenario rock bg-verde">
+                <p class="nombre-escenario">
+                    Escenario Rock Alternativo
+                </p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Cementerio de elefantes</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Estéreo Humanzee</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Pedro Bonfim</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Pánico</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Paola navarrete</span>
+                    </li>
+                    <li>
+                        17:00 | <span>La madre tirana</span>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="escenario alternativo bg-amarillo">
+                <p class="nombre-escenario">
+                    Escenario Alternativo
+                </p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>El zar</span>
+                    </li>
+                    <li>
+                        22:00 | <span>El mato a un policía motirizado</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Far Caspian</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Letelefono</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Les Petit Batards</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Can Can</span>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galería</h3>
+
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+    <section id="boletos" class="boletos bg-negro">
+        <h3>Boletos</h3>
+
+        <div class="contenedor contedor-boletos">
+            <div class="basico pase">
+                <p class="nombre-pase">Pase 1 día</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y bebida</li>
+                    </ul>
+                </div>
+
+                <footer class="pase-footer">
+                    <p>$100</p>
+                </footer>
+            </div>
+            <div class="Premium pase">
+                <p class="nombre-pase">Pase 2 días</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y bebida</li>
+                        <li>Camisas</li>
+                        <li>Acceso VIP  </li>
+                    </ul>
+                </div>
+
+                <footer class="pase-footer">
+                    <p>$200</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="site-footer">
+        <p>Indie Festival. Todos los derechos reservados</p>
+    </footer>
+    <script src="build/js/app.js"></script>
+</body>
+</html>
+
